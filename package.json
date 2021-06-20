@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch & export NODE_ENV=development && node bin/dev.js -t dist/ -e dist/app.js",
-    "build": "tsc && node dist/index.js"
+    "start": "tsc && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
